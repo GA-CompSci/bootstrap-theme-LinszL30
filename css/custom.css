@@ -1,6 +1,12 @@
 /***** 
 COLOR CHEAT SHEET 
-
+https://coolors.co/08111a-0d1b2a-1b263b-415a77-778da9-e0e1d
+08111a - rich black
+0d1b2a - dark blue
+1b263b - navy blue
+415a77 - Yln Mn Blue
+778da9 - silver lake blue
+e0e1dd - patinum
 
 *****/
 
@@ -8,10 +14,89 @@ COLOR CHEAT SHEET
 /********************/
 /******* FONTS ******/
 /********************/
-body, p {
+body,
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Poppins", sans-serif;
 
 }
 
-h1, h2, h3, h4, h5, h6 {
+/********************/
+/******* HERO ******/
+/********************/
+header.masthead {
+    background: url("../img/wp7212246-2488921925.jpg");
+    background-size: cover;
+}
 
+header.masthead h1 {
+    color: #778da9;
+    text-shadow: 2px 2px 5px white;
+}
+
+header.masthead p {
+    color: #778da9;
+    font-size: 25px;
+}
+
+/********************/
+/******* COLOR ******/
+/********************/
+
+.btn-primary {
+    background: #415a77;
+    border: 2px solid #415a77;
+    color: white;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background: #415a77;
+    border: 2px solid #778da9 !important;
+    font-weight:800;
+}
+hr.divider {
+    background-color: #778da9;
+}
+
+.bg-primary {
+    background-color: #0d1b2a !important;
+}
+
+.text-primary {
+    color: #778da9 !important;
+}
+
+
+/********************/
+/******* NAV ******/
+/********************/
+
+#mainNav.navbar-shrink {
+	background-color: #1b263b;
+}
+#mainNav.navbar-shrink .navbar-brand {
+	color: #e0e1dd;
+}
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+	color: #e0e1dd;
+}
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover,
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav.navbar-shrink .navbar-brand:hover {
+	color: #778da9 !important;
+}
+
+
+
+/***************************/
+/******* TOP 6 IMAGES ******/
+/***************************/
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    background: #778da9a8;
 }
