@@ -36,13 +36,20 @@ header.masthead {
 }
 
 header.masthead h1 {
-    color: #778da9;
-    text-shadow: 2px 2px 5px black;
+    color: #e0e1dd;
+    text-shadow: 
+        -2px -2px 0 black,   /* Top-left shadow */
+        2px -2px 0 black,    /* Top-right shadow */
+        -2px 2px 0 black,    /* Bottom-left shadow */
+        2px 2px 0 black;     /* Bottom-right shadow */
+    font-size:92px;
 }
 
 header.masthead p {
-    color: #415a77;
-    font-size: 25px;
+    color: #e0e1ddce;
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;    
+    background: #00000020;
 }
 
 /********************/
@@ -70,7 +77,16 @@ hr.divider {
 .text-primary {
     color: #778da9 !important;
 }
+.bg-light {
+    
+    background-color: #0d1b2a !important;
+}
 
+.carousel-caption {
+   
+    color: black
+    
+}
 
 /********************/
 /******* NAV ******/
